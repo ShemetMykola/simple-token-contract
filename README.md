@@ -2,19 +2,16 @@
 
 This repository contains a simple ERC-20 token contract written in Solidity.
 
----
+## Existing Info
+The contract allows minting an initial supply to the deployer using ERC-20 standard.
 
-## 🛠 How to Use
-
-1. Open [Remix Ethereum IDE](https://remix.ethereum.org/).
-2. Create a new file `MyToken.sol` and paste the code.
-3. Compile the contract with Solidity version `0.8.x`.
-4. Deploy the contract and specify `initialSupply` (e.g., 1000000).
-5. Use the deployed contract to interact with your token.
+## How to Use
+1. Open Remix Ethereum IDE and paste `MyToken.sol` code.
+2. Compile with Solidity 0.8.x
+3. Deploy the contract and specify initialSupply
 
 ---
 
-## ⚡ Features
-- ERC-20 standard token
-- Mint initial supply to deployer
-- Can be extended for more functionality (burn, mint, transfer restrictions)
+## Next Steps / Improvements
+- Implement burn function
+- Add deployment guide for testnet/mainnet
